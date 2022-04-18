@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fundamentos - Align Self</title>
+
+    <style>
+      .flex-container {
+        max-width: 350px;
+        border: 1px solid #000;
+        margin-bottom: 10px;
+        display: flex;
+      }
+
+      .item {
+        background-color: brown;
+        color: #fff;
+        font-size: 24px;
+        text-align: center;
+        margin: 5px;
+      }
+
+      .align-container {
+        align-items: center;
+      }
+      .center {
+        align-self: center;
+      }
+
+      .start {
+        align-self: flex-start;
+      }
+
+      .end {
+        align-self: flex-end;
+      }
+
+      .baseline {
+        align-self: baseline;
+      }
+
+      .stretch {
+        align-self: stretch;
+      }
+
+      .auto {
+        align-self: auto;
+      }
+
+      .direction {
+        flex-direction: column;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>row</h1>
+    <section class="flex-container align-container">
+      <div class="item auto">AAA</div>
+      <div class="item auto">222</div>
+      <div class="item auto">Lorem ipsum dolor sit. Lorem, ipsum dolor.</div>
+      <div class="item auto">EFA</div>
+    </section>
+
+    <section class="flex-container">
+      <div class="item center">AAA</div>
+      <div class="item start">222</div>
+      <div class="item auto">Lorem ipsum dolor sit. Lorem, ipsum dolor.</div>
+      <div class="item end">EFA</div>
+    </section>
+
+    <section class="flex-container">
+      <div class="item center">Lorem, ipsum dolor.</div>
+      <div class="item start">AAA</div>
+      <div class="item end">AAA</div>
+      <div class="item stretch">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto,
+        molestias?
+      </div>
+    </section>
+    <hr />
+    <h1>column</h1>
+    <section class="flex-container align-container direction">
+      <div class="item auto">AAA</div>
+      <div class="item auto">222</div>
+      <div class="item auto">Lorem ipsum dolor sit. Lorem, ipsum dolor.</div>
+      <div class="item auto">EFA</div>
+    </section>
+
+    <section class="flex-container direction">
+      <div class="item center">AAA</div>
+      <div class="item start">222</div>
+      <div class="item auto">Lorem ipsum dolor sit. Lorem, ipsum dolor.</div>
+      <div class="item end">EFA</div>
+    </section>
+
+    <section class="flex-container direction">
+      <div class="item center">Lorem, ipsum dolor.</div>
+      <div class="item start">AAA</div>
+      <div class="item end">AAA</div>
+      <div class="item stretch">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto,
+        molestias?
+      </div>
+  </body>
+</html>
