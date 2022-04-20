@@ -118,7 +118,7 @@ Não muito utilizado, devido que quando o flex-direction é setado em column man
 
 ## Justify Content
 
-Se encarrega de alinhar itens do container de acordo com a direção pretendida e trata da distrubuição de  espaçamento entre eles. Obs.: Não se aplica caso itens estejam ocupando 100% do container.
+Se encarrega de alinhar itens do container de acordo com a direção pretendida e trata da distribuição de  espaçamento entre eles. Obs.: Não se aplica caso itens estejam ocupando 100% do container.
 
 ## Align-items
 
