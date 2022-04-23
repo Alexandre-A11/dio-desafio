@@ -1,6 +1,10 @@
+<style>img {width: 600px}</style>
+
 # DIO Desafio de Projeto Git/Gihub
 
-[Desafios de Projeto Git/Github](https://alexandre-a11.github.io/dio-desafio/)
+[Webpage Projetos DIO](https://alexandre-a11.github.io/dio-desafio/)
+
+[![](assets/images/Projetos-DIO.png)](https://alexandre-a11.github.io/dio-desafio/)
 
 ## Links Úteis
 
