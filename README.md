@@ -7,8 +7,7 @@
 
 [Sintaxe Básica MarkDown](https://www.markdownguide.org/cheat-sheet/)
 
-<html>
- <style>
-   img {width: 600px}
- </style>
-</html>
+<style>
+    img {width: 600px}
+</style>
+
