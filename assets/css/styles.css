@@ -30,7 +30,7 @@ h1 span {
 h1 span:nth-child(even) {
   color: #e2e8f0;
   overflow: hidden;
-  transition: ease-in-out 0.5s;
+  transition: ease-in-out 3s;
   letter-spacing: -1em;
 }
 
@@ -43,6 +43,7 @@ h1:hover span:nth-child(2) {
   transition-delay: 0s;
 }
 
+/*
 h1:hover span:nth-child(4) {
   transition-delay: 0.5s;
 }
@@ -50,6 +51,7 @@ h1:hover span:nth-child(4) {
 h1:hover span:nth-child(6) {
   transition-delay: 1s;
 }
+*/
 
 .card-container h2 {
   text-align: center;
