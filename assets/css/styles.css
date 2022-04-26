@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;700&family=Rasa&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;700&family=Rasa&family=Comfortaa:wght@300;400;500;600;700&display=swap");
 
 * {
   margin: 0;
@@ -88,9 +88,9 @@ h1:hover span:nth-child(6) {
 }
 
 .spread-text span {
-  font-family: "Montserrat", sans-serif;
-  font-size: 4rem;
   cursor: pointer;
+  font-family: "Comfortaa", cursive;
+  font-size: 4rem;
 }
 
 .spread-text span:nth-child(2),
