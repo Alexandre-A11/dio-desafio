@@ -29,10 +29,10 @@ const openSpread = () => {
         spanSpread[1].style.letterSpacing = "";
         spanSpread[2].style.letterSpacing = "";
         imgSpread.style.opacity = "";
-    }, 6000);
+    }, 7000);
 };
 spanSpread[0].style.opacity = "0";
 setTimeout(() => {  openDIO(); }, 1000); // prettier-ignore
 setTimeout(() => {spanSpread[0].style.opacity = "1";}, 1000); // prettier-ignore
-setTimeout(() => {  closeDIO(); }, 8000); // prettier-ignore
-setTimeout(() => {  openSpread(); }, 1600); // prettier-ignore
+setTimeout(() => {  closeDIO(); }, 10000); // prettier-ignore
+setTimeout(() => {  openSpread(); }, 2800); // prettier-ignore
