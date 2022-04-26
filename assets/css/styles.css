@@ -92,7 +92,9 @@ h1:hover span:nth-child(6) {
   font-family: "Comfortaa", cursive;
   font-size: 4rem;
 }
-
+.spread-text span:first-child {
+  transition-duration: 3s;
+}
 .spread-text span:nth-child(2),
 .spread-text span:nth-child(3) {
   color: #e2e8f0;
