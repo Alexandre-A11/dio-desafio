@@ -19,13 +19,20 @@ main {
   align-items: center;
 }
 
-/* H1 Effect */
-h1 span {
+/* DIO */
+h1 span,
+.spread-text span {
   color: #1e293b;
   font-size: 6rem;
   display: inline-flex;
   font-family: "Frank Ruhl Libre", serif;
 }
+
+/* h1 span:nth-child(odd) {
+  background: -webkit-linear-gradient(#349bd4 10%, #4a65ab, #d24c67);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
 
 h1 span:nth-child(even) {
   color: #e2e8f0;
@@ -52,6 +59,56 @@ h1:hover span:nth-child(6) {
   transition-delay: 1s;
 }
 */
+
+/* Spread */
+.spread-block {
+  display: flex;
+  max-width: 27vh;
+  margin-left: -6vh;
+}
+
+.spread-block img {
+  align-self: center;
+  height: 62px;
+  width: 60px;
+  opacity: 0;
+  transition-delay: 1s;
+  transition-duration: 1.2s;
+}
+
+.spread-block:hover img {
+  opacity: 1;
+  transition-delay: 2.4s;
+}
+
+.spread-text {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.spread-text span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 4rem;
+  cursor: pointer;
+}
+
+.spread-text span:nth-child(2),
+.spread-text span:nth-child(3) {
+  color: #e2e8f0;
+  overflow: hidden;
+  margin-left: 5px;
+  transition: ease-in-out 3s;
+  letter-spacing: -1em;
+}
+
+.spread-text:hover span:nth-child(2),
+.spread-text:hover span:nth-child(3) {
+  letter-spacing: 0;
+  transition-delay: 0s;
+}
+
+/* End Spread h1 */
 
 .card-container h2 {
   text-align: center;
