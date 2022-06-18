@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "../IFoodCounter/IFoodCounter.css";
+import "./IFoodCounter.css";
 
 export default function IFoodCounter() {
     const [value, setValue] = useState(1);
