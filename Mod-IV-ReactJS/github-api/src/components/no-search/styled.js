@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
     display: flex;
-    margin: auto;
     width: 100%;
     height: 100vh;
     justify-content: center;
@@ -11,6 +10,7 @@ export const Wrapper = styled.div`
         margin-top: 10rem;
         font-size: 3rem;
         font-weight: bold;
+        color: #8ec1d6;
     };
 
     }

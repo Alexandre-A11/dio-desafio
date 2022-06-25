@@ -27,7 +27,7 @@ export const WrapperInfoUser = styled.div`
     }
 
     a {
-        color: turquoise;
+        color: #8ec1d6;
         font-weight: bold;
         font-size: 1.2rem;
     }
@@ -47,15 +47,17 @@ export const WrapperStatusCount = styled.div`
     div {
         margin-right: 0.5rem;
         text-align: center;
+        margin-top: 1rem;
     }
 
     div h4 {
+        color: #8ec1d6;
         margin-bottom: 0.5rem;
     }
 `;
 
 export const WrapperImage = styled.img`
     border-radius: 50%;
-    width: 20rem;
+    width: 16rem;
     margin: 1rem;
 `;

@@ -9,14 +9,15 @@ const RepositoryItem = ({
     return (
         <S.Wrapper>
             <S.WrapperTitle>{nameRepository}</S.WrapperTitle>
-            <S.WrapperFullName>fullname:</S.WrapperFullName>
-            <S.WrapperLink
-                href={linkRepository}
-                target="_blank"
-                rel="noreferrer"
-            >
-                {fullNameRepository}
-            </S.WrapperLink>
+            <S.WrapperFullName>
+                <S.WrapperLink
+                    href={"https://github.com/" + linkRepository}
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    {fullNameRepository}
+                </S.WrapperLink>
+            </S.WrapperFullName>
         </S.Wrapper>
     );
 };
