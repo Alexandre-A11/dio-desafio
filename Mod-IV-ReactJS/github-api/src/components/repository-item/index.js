@@ -1,4 +1,5 @@
 import React from "react";
+import * as S from "./styled";
 
 const RepositoryItem = ({
     nameRepository,
@@ -6,13 +7,17 @@ const RepositoryItem = ({
     fullNameRepository,
 }) => {
     return (
-        <>
-            <h2>{nameRepository}</h2>
-            <h4>fullname:</h4>
-            <a href={linkRepository} target="_blank" rel="noreferrer">
+        <S.Wrapper>
+            <S.WrapperTitle>{nameRepository}</S.WrapperTitle>
+            <S.WrapperFullName>fullname:</S.WrapperFullName>
+            <S.WrapperLink
+                href={linkRepository}
+                target="_blank"
+                rel="noreferrer"
+            >
                 {fullNameRepository}
-            </a>
-        </>
+            </S.WrapperLink>
+        </S.Wrapper>
     );
 };
 
