@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/dio-desafio/Mod-IV-ReactJS/github-api/build/static/js/main.5a91a927.js",
-    "index.html": "/dio-desafio/Mod-IV-ReactJS/github-api/build/index.html",
-    "main.5a91a927.js.map": "/dio-desafio/Mod-IV-ReactJS/github-api/build/static/js/main.5a91a927.js.map"
+    "main.js": "https://alexandre-a11.github.io/dio-desafio/Mod-IV-ReactJS/github-api/build/static/js/main.5a91a927.js",
+    "index.html": "https://alexandre-a11.github.io/dio-desafio/Mod-IV-ReactJS/github-api/build/index.html",
+    "main.5a91a927.js.map": "https://alexandre-a11.github.io/dio-desafio/Mod-IV-ReactJS/github-api/build/static/js/main.5a91a927.js.map"
   },
-  "entrypoints": ["build/static/js/main.5a91a927.js"]
+  "entrypoints": ["static/js/main.5a91a927.js"]
 }
