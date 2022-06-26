@@ -1,6 +1,5 @@
 {
   "name": "github-api",
-  "homepage": "https://alexandre-a11.github.io/dio-desafio/Mod-IV-ReactJS/github-api",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
