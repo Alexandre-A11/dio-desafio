@@ -4,5 +4,6 @@ SELECT v.nome_video, v.autor_video, c.nome_canal FROM videos_canais AS vc JOIN v
 JOIN canais AS c ON vc.fk_canal = c.id_canal; 
 SELECT * FROM videos_canais AS vc INNER JOIN videos AS v ON vc.fk_video = v.id_video
 INNER JOIN canais AS c ON vc.fk_canal = c.id_canal; 
+-- INNER = default
 SELECT * FROM videos_canais AS vc LEFT OUTER JOIN videos AS v ON vc.fk_video = v.id_video
 RIGHT OUTER JOIN canais AS c ON vc.fk_canal = c.id_canal; 
